@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>Makar Sankranti 2026 - Triveni Mitra Mandal</title>
+    <meta property="og:title" content="Makar Sankranti 2026 - Triveni Mitra Mandal">
+    <meta property="og:description" content="Early Bird Tickets Ends Jan 18, Volunteers needed Apply by Jan 18, Bornahn Limited Spots">
+    <meta property="og:image" content="https://tmmcommunications2026-max.github.io/sankrant-flyer-7/sankran-flyer-7-thumbnail-2.jpg">
+    <meta property="og:type" content="event">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        html {
+            -webkit-text-size-adjust: 100%;
+            touch-action: manipulation;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: #1a1a2e;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 10px;
+            margin: 0;
+            overflow: auto;
+        }
+        
+        /* Hide scrollbar */
+        body::-webkit-scrollbar {
+            display: none;
+        }
+        
+        body {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .flyer {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            background-image: url('https://tmmcommunications2026-max.github.io/sankrant-flyer-7/makar-sankrant-7.jpg');
+            background-size: contain;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-color: #1a1a2e;
+            position: relative;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            overflow: visible;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            position: absolute;
+            top: 2%;
+            left: 2%;
+            width: 12%;
+            max-width: 150px;
+            background: white;
+            border-radius: 8px;
+            padding: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            z-index: 10;
+            pointer-events: none;
+        }
+
+        .logo img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .clickable-area {
+            position: absolute;
+            display: block;
+            cursor: pointer;
+            transition: background 0.2s ease, transform 0.2s ease;
+            border-radius: 30px;
+            z-index: 999;
+            text-decoration: none;
+            -webkit-user-select: none;
+            user-select: none;
+            touch-action: manipulation;
+            -webkit-tap-highlight-color: rgba(255, 215, 0, 0.4);
+        }
+
+        @media (hover: hover) and (pointer: fine) {
+            .clickable-area:hover {
+                background: rgba(1, 73, 165, 0.25);
+                transform: scale(1.02);
+            }
+        }
+
+        .clickable-area:active {
+            background: rgba(255, 215, 0, 0.5) !important;
+            transform: scale(0.98) !important;
+            transition: none;
+        }
+
+        .buy-now-link {
+            left: 19%;
+            bottom: 10%;
+            width: 17%;
+            height: 9%;
+            min-height: 60px;
+        }
+
+        .sign-up-link {
+            left: 44%;
+            bottom: 10%;
+            width: 19.5%;
+            height: 9%;
+            min-height: 60px;
+        }
+
+        .register-link {
+            left: 70.5%;
+            bottom: 10%;
+            width: 19.5%;
+            height: 9%;
+            min-height: 60px;
+        }
+
+        /* Tablet styles */
+        @media (max-width: 1024px) {
+            .flyer {
+                box-shadow: none;
+            }
+            
+            .logo {
+                width: 16%;
+                max-width: 140px;
+                top: 20%;
+            }
+            
+            .clickable-area {
+                min-height: 70px;
+            }
+
+            .buy-now-link {
+                left: 15%;
+                bottom: 18%;
+                width: 17.5%;
+                height: 9.5%;
+            }
+
+            .sign-up-link {
+                left: 40.5%;
+                bottom: 19.5%;
+                width: 20%;
+                height: 9.5%;
+            }
+
+            .register-link {
+                left: 70%;
+                bottom: 19.5%;
+                width: 20%;
+                height: 9.5%;
+            }
+        }
+
+        /* Mobile landscape and small tablets */
+        @media (max-width: 768px) {
+            body {
+                padding: 0;
+            }
+            
+            .flyer {
+                box-shadow: none;
+            }
+            
+            .logo {
+                width: 18%;
+                max-width: 100px;
+                top: 18%;
+                left: 1.5%;
+                padding: 6px;
+            }
+            
+            .clickable-area {
+                min-height: 75px;
+                border-radius: 25px;
+            }
+
+            .buy-now-link {
+                left: 15%;
+                bottom: 18.5%;
+                width: 17.5%;
+                height: 9.5%;
+            }
+
+            .sign-up-link {
+                left: 40.5%;
+                bottom: 20%;
+                width: 20%;
+                height: 9.5%;
+            }
+
+            .register-link {
+                left: 70%;
+                bottom: 20%;
+                width: 20%;
+                height: 9.5%;
+            }
+        }
+
+        /* Mobile portrait */
+        @media (max-width: 480px) {
+            body {
+                padding: 0;
+            }
+            
+            .flyer {
+                box-shadow: none;
+            }
+            
+            .logo {
+                width: 20%;
+                max-width: 80px;
+                top: 16%;
+                left: 2%;
+                padding: 5px;
+                border-radius: 6px;
+            }
+            
+            .clickable-area {
+                min-height: 80px;
+                border-radius: 20px;
+            }
+
+            .buy-now-link {
+                left: 15%;
+                bottom: 18.5%;
+                width: 18%;
+                height: 10%;
+            }
+
+            .sign-up-link {
+                left: 40.5%;
+                bottom: 20%;
+                width: 20%;
+                height: 10%;
+            }
+
+            .register-link {
+                left: 70%;
+                bottom: 20%;
+                width: 20%;
+                height: 10%;
+            }
+        }
+
+        /* Small mobile devices */
+        @media (max-width: 360px) {
+            body {
+                padding: 0;
+            }
+            
+            .flyer {
+                box-shadow: none;
+            }
+            
+            .logo {
+                width: 22%;
+                max-width: 70px;
+                padding: 4px;
+                top: 14%;
+            }
+            
+            .clickable-area {
+                min-height: 85px;
+            }
+
+            .buy-now-link {
+                left: 15%;
+                bottom: 18.5%;
+                width: 18.5%;
+                height: 10%;
+            }
+
+            .sign-up-link {
+                left: 40.5%;
+                bottom: 20%;
+                width: 20.5%;
+                height: 10%;
+            }
+
+            .register-link {
+                left: 70%;
+                bottom: 20%;
+                width: 20.5%;
+                height: 10%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flyer">
+            <div class="logo">
+                <img src="https://tmmcommunications2026-max.github.io/sankrant-flyer-7/tmm-2026.jpg" alt="TMM Logo">
+            </div>
+            <a href="https://www.triveni-mandal.org/event-details/makar-sankrant-celebration-2026" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="clickable-area buy-now-link" 
+               aria-label="Buy tickets for Makar Sankranti 2026"></a>
+            <a href="https://www.triveni-mandal.org/makar-sankrant-2026-volunteer" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="clickable-area sign-up-link" 
+               aria-label="Sign up as volunteer"></a>
+            <a href="https://www.wixforms.com/f/7414852782353548288" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="clickable-area register-link" 
+               aria-label="Register for Bornahn"></a>
+        </div>
+    </div>
+</body>
+</html>
